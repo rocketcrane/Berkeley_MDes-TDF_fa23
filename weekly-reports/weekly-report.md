@@ -3,7 +3,7 @@
 
 Did the icebreaker logo in Affinity Designer as I'm comfortable with it and haven't used Figma before.
 
-TJ's GH tutorial - I played around and made a completely pointless _make the smallest box possible_ grasshopper file.
+During TJ's GH tutorial - I played around and made a completely pointless _make the smallest box possible_ grasshopper file.
 ![grasshopper diagram](8-28/screenshot1.png)
 ![small box](8-28/screenshot2.png)
 ![galapagos solver](8-28/screenshot3.png)
