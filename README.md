@@ -1,4 +1,4 @@
-# Hello World!
+# Hello! 👋🏼
 This is the repository for Lingxiu's work in the Fall 2023 DES INV 202 _Technology Design Innovations_ class at UC Berkeley.
 
 ---
