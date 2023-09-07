@@ -1,4 +1,9 @@
 # Week 3 - 9/7
+9/7 - More ideas for project 1:
+1. Business model of selling personalized objects (such as Nike's online shoe customizer, Ray-Ban's sunglasses customizer). Ties into casual creators idea (Kate Compton) from _Debates in Design_. What else is low hanging fruit in that space?
+2. Integrating computational design into a game/virtual world by having an ML model understand something about the player/user?
+3. A micromobility shoe (with wheels) personalized to the user?
+4. Custom - {drone frames, phone cases}
 
 9/6 - I've already "finished" this week's homework, (making a new parametric/computational design with grasshopper) last week, so I want to move forward with project 1 and think about a completely new design I want to do (the bedside table was not enough to be project 1 imo).
 
