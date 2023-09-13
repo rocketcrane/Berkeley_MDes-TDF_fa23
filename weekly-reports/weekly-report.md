@@ -6,10 +6,10 @@ Next project I'd like to start thinking about the final deliverable much much ea
 The idea is to combine microspine (originally NASA research I afaik) grippers (arrays of needles with springs/flexible backing to grip onto uneven surfaces such as rocks) with a wearable device, to make a climbing glove that can easily stick to rock.
 ![ microspine gripper](9-14/microspine.png)
 
-The goal of this design is to create a climbing aid device (likely a pair of gloves). Considerations include the ergonomics of the hand (see sketches below) with three main sections of the palm that bend inwards against each other, ease of wearing/removal, as well as compatibility with common climbing devices (climbing rope, belay devices, harnesses, clothing) which likely necessitates retractable needles to avoid snagging on objects or damage to other , like how cats can retract their claws.
+The goal of this design is to create a climbing aid device (likely a pair of gloves). Considerations include the ergonomics of the hand (see sketches below) with three main sections of the palm that bend inwards against each other, ease of wearing/removal, as well as compatibility with common climbing devices (climbing rope, belay devices, harnesses, clothing) which likely necessitates retractable needles to avoid snagging on objects or damage to other, like how cats can retract their claws.
 <object data="9-14/handgrippernotes.pdf" type="application/pdf" width="700px" height="700px">
 	<embed src="9-14/handgrippernotes.pdf">
-		<p>This browser does not support PDFs. Please download the PDF to view it: <a href="9-14/handgrippernotes.pdf">Download PDF</a>.</p>
+		<p>This browser does not support PDFs. Please click on the link to see the sketches: <a href="9-14/handgrippernotes.pdf">View sketches here.</a>.</p>
 	</embed>
 </object>
 
