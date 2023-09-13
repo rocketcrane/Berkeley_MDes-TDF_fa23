@@ -1,3 +1,18 @@
+# Week 4 - 9/14
+9/13 - Settled on an idea for TDF project 1! Level is probably axolotl but the focus should be more on the concept rather than the specific execution as I only have a day to actually implement this in grasshopper.
+
+Next project I'd like to start thinking about the final deliverable much much earlier, in the beginning, so I have more time to work on the implementation.
+
+The idea is to combine microspine (originally NASA research I afaik) grippers (arrays of needles with springs/flexible backing to grip onto uneven surfaces such as rocks) with a wearable device, to make a climbing glove that can easily stick to rock.
+![ microspine gripper](9-14/microspine.png)
+
+The goal of this design is to create a climbing aid device (likely a pair of gloves). Considerations include the ergonomics of the hand (see sketches below) with three main sections of the palm that bend inwards against each other, ease of wearing/removal, as well as compatibility with common climbing devices (climbing rope, belay devices, harnesses, clothing) which likely necessitates retractable needles to avoid snagging on objects or damage to other , like how cats can retract their claws.
+<object data="9-14/handgrippernotes.pdf" type="application/pdf" width="700px" height="700px">
+	<embed src="9-14/handgrippernotes.pdf">
+		<p>This browser does not support PDFs. Please download the PDF to view it: <a href="9-14/handgrippernotes.pdf">Download PDF</a>.</p>
+	</embed>
+</object>
+
 # Week 3 - 9/7
 9/7 - More ideas for project 1:
 1. Business model of selling personalized objects (such as Nike's online shoe customizer, Ray-Ban's sunglasses customizer). Ties into casual creators idea (Kate Compton) from _Debates in Design_. What else is low hanging fruit in that space?
