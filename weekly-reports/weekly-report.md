@@ -1,3 +1,7 @@
+# Week 5 - 9/21
+
+9/20 - Set up photon 2 with Berkeley IoT Wi-Fi. Note to instructors: finding the MAC address of a device is usually easy when on your own network - you can find it in your Wi-Fi router software (e.g. the Eero app).
+
 # Week 4 - 9/14
 9/14 - Fabricated a super rough prototype of the concept. I first 3D scanned my hand (using an app on my phone without LiDAR so the quality is not very high), and then built two shapes in grasshopper to conform to either side of my palm, and created an array of needles as a demonstration. I then 3D printed the solid parts and fabricated the soft materials out of scrap fabric at Jacobs.
 ![prototype photo 1](9-14/p1.jpeg)
