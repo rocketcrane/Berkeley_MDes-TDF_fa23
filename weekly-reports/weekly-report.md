@@ -1,3 +1,18 @@
+# Week 6 - 9/28
+
+9/28 - Set up OLED display with Photon 2 via Adafruit OLED guide and Photon 2 pinout. Using I2C.
+![oled setup](9-28/oled.jpeg)
+
+Installed Adafruit SSD1306 library for Particle in VS Code - went to particle's firmware libraries page, and installed _Adafruit_SSD1306_RK_, as that seems to be the newest library and maintained directly by Adafruit.
+
+Couldn't find the example code for the OLED in VS code, so downloaded and installed the same libraries on the Arduino IDE. Arduino examples did not compile when copied to Particle - main error was using _SSD_1306_WHITE_ (or a different color) for drawing on the OLED.
+
+Went back to Particle's firmware libraries page and found that examples should be in file structure of particle libraries, and from VS code error paths, found where the library examples are (in the lib folder in the project folder). Particle libraries apparently use _WHITE_ (or color name) for the color instead.
+
+These examples compiled and the OLED worked after a unplug/replug of the Photon 2.
+Stopped here for now, too many other things to do this week...
+![oled working](9-28/oled-yay.jpeg)
+
 # Week 5 - 9/21
 
 9/20 - Set up photon 2 with Berkeley IoT Wi-Fi. Note to instructors: finding the MAC address of a device is usually easy when on your own network - you can find it in your Wi-Fi router software (e.g. the Eero app).
