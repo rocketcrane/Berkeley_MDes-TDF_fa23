@@ -11,6 +11,8 @@ Went back to Particle's firmware libraries page and found that examples should b
 
 These examples compiled and the OLED worked after a unplug/replug of the Photon 2.
 Stopped here for now, too many other things to do this week...
+
+Please ignore the black line down the middle of the OLED, that's just an artifact from the camera, the OLED looks fine IRL.
 ![oled working](9-28/oled-yay.jpeg)
 
 # Week 5 - 9/21
