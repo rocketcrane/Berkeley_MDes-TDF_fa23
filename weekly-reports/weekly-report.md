@@ -1,6 +1,6 @@
 # Week 6 - 9/28
 
-9/28 - Set up OLED display with Photon 2 via Adafruit OLED guide and Photon 2 pinout. Using I2C.
+9/28 - Set up OLED display with Photon 2 via Adafruit OLED guide and Photon 2 pinout. Using I2C. Thanks to Jeff and Sudhu for the I2C cable!
 ![oled setup](9-28/oled.jpeg)
 
 Installed Adafruit SSD1306 library for Particle in VS Code - went to particle's firmware libraries page, and installed _Adafruit_SSD1306_RK_, as that seems to be the newest library and maintained directly by Adafruit.
