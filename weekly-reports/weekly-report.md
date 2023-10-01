@@ -1,9 +1,7 @@
 # Week 7 - 10/05
 
 Tangential & outside of class, but I got a Spot to move over the weekend at the AI in motion hackathon in SF!
-<video width="320" height="240" controls>
-  <source src="10-05/spot.mp4" type="video/mp4">
-</video>
+![spot](10-05/spot.mp4)
 
 # Week 6 - 9/28
 
