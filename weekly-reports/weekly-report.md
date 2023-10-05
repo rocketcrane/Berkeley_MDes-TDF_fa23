@@ -1,4 +1,5 @@
 # Week 7 - 10/05
+Our team ideated on a [figjam board](https://www.figma.com/file/21NAt97JnzujQQBOlBk4dq/Music-Collab?type=whiteboard&node-id=0%3A1&t=sAtFPmvNcsmlZ8aG-1). Password: teenage-designing 
 
 Tangential & outside of class, but I got a Spot to move over the weekend at the AI in motion hackathon in SF!
 ![spot-video](10-05/spot.mp4)
