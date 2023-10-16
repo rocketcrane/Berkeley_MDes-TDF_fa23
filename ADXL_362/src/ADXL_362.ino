@@ -6,6 +6,8 @@ SerialLogHandler logHandler;
 #include "ADXL362.h"
 ADXL362 adxl362;
 
+static int deviceID = 0; //used to differentiate between multiple devices
+
 void setup() {
   //DEBUGGING
   Serial.begin(9600);
@@ -20,20 +22,29 @@ void setup() {
 
 
 void loop() {
-  //float time;
   int x, y, z;
   float r, p, t;
 
+  static unsigned long lastTime = 0; // initialize to starting time
+  unsigned long currentTime = millis(); // get time since start of program
+
   adxl362.readXYZmg(x, y, z); //burst read of axes - REQUIRED to guarantee all measurements correspond to same sample time 
-  //adxl362.readXYZTData(x, y, z, time); //burst read of all registers - REQUIRED to guarantee all measurements correspond to same sample time
   adxl362.XYZmgtoRPT(x, y, z, r, p, t); //converts raw data to roll, pitch, tilt
 
-  int roll = (int)r;
-  int pitch = (int)p;
-  int tilt = (int)t;
+  if (currentTime - lastTime >= 1000) { // execute the following block of code every second, because, to quote the Particle docs:
+  //Currently, a device can publish at rate of about 1 event/sec, with bursts of up to 4 allowed in 1 second. Back to back burst of 4 messages will take 4 seconds to recover.
+  //Each publish uses one Data Operation from your monthly or yearly quota. (This means we'll run out of data operations in 100,000/60/60 = 27 minutes!)
+    lastTime = currentTime; // update lastTime to current time
 
-  //Log.info("x: %d, y: %d, z: %d, r: %d, p: %d, t: %d", x, y, z, roll, pitch, tilt);
-  //Serial.printlnf("%d, %d, %d, %d, %d, %d", x, y, z, roll, pitch, tilt); //DEBUGGING - Use Arduino Serial Plotter
-  //Serial.printlnf("%d, %d, %d", roll, pitch, tilt); //DEBUGGING - Use Arduino Serial Plotter
-  delay(1);
+    String message = String(deviceID) + ", " + String(x) + ", " + String(y) + ", " + String(z) + ", " + String(r) + ", " + String(p) + ", " + String(t);
+
+    if(!Particle.publish(message)) {
+      Log.info("Publish failed! You might not be connected to WiFi or the Particle Cloud.");
+    }
+  }
+
+  //Log.info("x: %d, y: %d, z: %d, r: %f, p: %f, t: %f", x, y, z, r, p, t);
+  //Serial.printlnf("%d, %d, %d, %f, %f, %f", x, y, z, r, p, t); //DEBUGGING - Use Arduino Serial Plotter
+  //Serial.printlnf("%f, %f, %f", r, p, t); //DEBUGGING - Use Arduino Serial Plotter
+  //delay(1); //for DEBUGGING
 }
