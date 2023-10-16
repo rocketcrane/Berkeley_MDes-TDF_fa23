@@ -1,4 +1,4 @@
-/Users/lingxiu/Documents/0-documents/2023-2024-MDes/TDF/ADXL_362/target/5.5.0/p2//obj/./src/newlib_stubs.o: \
+/Users/lingxiu/Documents/0-documents/2023-2024-MDes/TDF/tdf-fa23-rocketcrane/ADXL_362/target/5.5.0/p2//obj/./src/newlib_stubs.o: \
  src/newlib_stubs.cpp \
  ../../../modules/shared/rtl872x/inc/user-part/newlib_stubs.inc \
  /Users/lingxiu/.particle/toolchains/gcc-arm/10.2.1/arm-none-eabi/include/sys/types.h \

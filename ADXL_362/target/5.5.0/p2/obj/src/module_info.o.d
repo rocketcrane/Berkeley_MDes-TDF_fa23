@@ -1,4 +1,4 @@
-/Users/lingxiu/Documents/0-documents/2023-2024-MDes/TDF/ADXL_362/target/5.5.0/p2//obj/./src/module_info.o: \
+/Users/lingxiu/Documents/0-documents/2023-2024-MDes/TDF/tdf-fa23-rocketcrane/ADXL_362/target/5.5.0/p2//obj/./src/module_info.o: \
  src/module_info.c ../../../dynalib/inc/module_info.inc \
  ../../../dynalib/inc/module_info.h ../../../services/inc/static_assert.h \
  /Users/lingxiu/.particle/toolchains/gcc-arm/10.2.1/arm-none-eabi/include/assert.h \

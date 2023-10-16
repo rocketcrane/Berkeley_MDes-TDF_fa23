@@ -1,4 +1,4 @@
-/Users/lingxiu/Documents/0-documents/2023-2024-MDes/TDF/ADXL_362/target/5.5.0/p2//obj/./src/user_export.o: \
+/Users/lingxiu/Documents/0-documents/2023-2024-MDes/TDF/tdf-fa23-rocketcrane/ADXL_362/target/5.5.0/p2//obj/./src/user_export.o: \
  src/user_export.c ../../../modules/shared/rtl872x/inc/user_part_export.c \
  ../../../modules/shared/rtl872x/inc/module_user_init.h \
  ../../../dynalib/inc/dynalib.h ../../../hal/shared/platforms.h \
