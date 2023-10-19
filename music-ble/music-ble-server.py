@@ -4,7 +4,7 @@ from pythonosc import osc_bundle_builder
 from pythonosc import osc_message_builder
 
 # Configuration
-SERIAL_PORT = '/dev/ttys002'  # Adjust this to your serial port
+SERIAL_PORT = '/dev/ttys014'  # Adjust this to your serial port
 SERIAL_BAUDRATE = 9600
 UDP_IP = '127.0.0.1'  # Localhost (adjust if needed)
 UDP_PORT = 12345

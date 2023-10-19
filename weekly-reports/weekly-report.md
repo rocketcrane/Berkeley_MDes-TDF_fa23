@@ -1,6 +1,10 @@
 # Week 9 - 10/19
 
-We finally started prototyping and got it working.
+10/19 - We have a prototype of the music synthesis working! We're using fish-shaped pillows, and the music we're generating actually synergizes pretty well with the fish/water theme.
+
+Will be interesting to see how the demo is received by the class.
+
+10/18 - We finally started prototyping and got it working.
 
 Steps to connect BLE with MaxMSP:
 Flash the [ble-accelerometer.ino code,](https://github.com/Berkeley-MDes/tdf-fa23-rocketcrane/blob/main/ble-accelerometer/src/ble-accelerometer.ino)
