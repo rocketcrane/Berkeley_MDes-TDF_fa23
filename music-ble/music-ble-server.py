@@ -52,12 +52,22 @@ try:
 			# Initialize the bundle builder
 			bundle = osc_bundle_builder.OscBundleBuilder(osc_bundle_builder.IMMEDIATELY)
 			# Create the OSC message and add arguments
-			msg = osc_message_builder.OscMessageBuilder(address="/coordinates")
+			msg = osc_message_builder.OscMessageBuilder(address="/x")
 			msg.add_arg(x)
+			bundle.add_content(msg.build())
+			msg = osc_message_builder.OscMessageBuilder(address="/y")
 			msg.add_arg(y)
+			bundle.add_content(msg.build())
+			msg = osc_message_builder.OscMessageBuilder(address="/z")
 			msg.add_arg(z)
+			bundle.add_content(msg.build())
+			msg = osc_message_builder.OscMessageBuilder(address="/r")
 			msg.add_arg(r)
+			bundle.add_content(msg.build())
+			msg = osc_message_builder.OscMessageBuilder(address="/p")
 			msg.add_arg(p)
+			bundle.add_content(msg.build())
+			msg = osc_message_builder.OscMessageBuilder(address="/t")
 			msg.add_arg(t)
 			# Add the message to the bundle
 			bundle.add_content(msg.build())

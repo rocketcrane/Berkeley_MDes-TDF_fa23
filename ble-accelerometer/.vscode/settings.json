@@ -6,5 +6,5 @@
     },
     "particle.firmwareVersion": "5.5.0",
     "particle.targetPlatform": "p2",
-    "particle.targetDevice": "bartleby"
+    "particle.targetDevice": "owl_badger"
 }
