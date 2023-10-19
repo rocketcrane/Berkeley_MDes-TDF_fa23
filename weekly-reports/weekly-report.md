@@ -1,3 +1,21 @@
+# Week 9 - 10/19
+
+We finally started prototyping and got it working.
+
+Steps to connect BLE with MaxMSP:
+Flash the [ble-accelerometer.ino code,](https://github.com/Berkeley-MDes/tdf-fa23-rocketcrane/blob/main/ble-accelerometer/src/ble-accelerometer.ino)
+In terminal (needs the [ble-serial library](https://github.com/Jakeler/ble-serial)):
+'''
+ble-serial -d D1AC0152-E7BD-B025-FB78-D8ED49F21977
+'''
+find the UUID of your device by using '''ble-scan'''
+run the [music ble server python code,](https://github.com/Berkeley-MDes/tdf-fa23-rocketcrane/blob/main/music-ble/music-ble-server.py)
+this code takes the serial port data (change it to the correct serial port from what the ble-serial library shows) and forwards it to a UDP server, packaged correctly for MaxMSP to read,
+and then in MaxMSP use
+'''
+udpreceive 12345 CNMAT
+'''
+
 # Week 8 - 10/12
 
 Our team continued to ideate! I got a proximity / gesture sensor working, and set up a simple publish to the particle.io console.
