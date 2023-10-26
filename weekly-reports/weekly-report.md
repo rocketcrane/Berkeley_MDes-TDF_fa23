@@ -1,3 +1,14 @@
+# Week 10 - 10/26
+10/26 - Here are some product photos of the final version of our TDF project 2!
+
+Also, I made a Lao Zi chatbot in ZeroWidth (GPT4 + instructions to have the model speak like Lao Zi + an entire copy of the Dao De Jing as a vector database knowledge set in ZeroWidth).
+
+![fish-pillow-1](10-26/fish1.jpeg)
+![fish-pillow-2](10-26/fish2.jpeg)
+![fish-pillow-3](10-26/fish3.jpeg)
+![fish-pillow-4](10-26/fish4.jpeg)
+![fish-pillow-5](10-26/fish5.jpeg)
+![fish-pillow-6](10-26/fish6.jpeg)
 # Week 9 - 10/19
 
 10/19 - We have a prototype of the music synthesis working! We're using fish-shaped pillows, and the music we're generating actually synergizes pretty well with the fish/water theme.
