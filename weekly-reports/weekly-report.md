@@ -3,6 +3,8 @@
 
 Also, I made a Lao Zi chatbot in ZeroWidth (GPT4 + instructions to have the model speak like Lao Zi + an entire copy of the Dao De Jing as a vector database knowledge set in ZeroWidth).
 
+Note: I grabbed an old 5.8GHz U.FL to RP-SMA adapter and an antenna from an FPV quadcopter, since without an antenna, the BLE signal was very very weak. I was slightly hesitant about the antenna because it's a 5.8GHz antenna and BLE should be 2.4GHz(?) but it seems to work really well!
+
 ![fish-pillow-1](10-26/fish1.jpeg)
 ![fish-pillow-2](10-26/fish2.jpeg)
 ![fish-pillow-3](10-26/fish3.jpeg)
