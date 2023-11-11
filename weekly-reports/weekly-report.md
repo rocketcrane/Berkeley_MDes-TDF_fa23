@@ -1,3 +1,12 @@
+# Week 12 - 11/9
+11/9 - This week I started working on the final project. I have a figjam board (working together with Mingzhou Gu) set up for our project:
+![figjam](11-09/figjam.png)
+
+The idea currently is to make an AI-powered physical device for note-taking. I purchased a 4.3" e-ink screen for the device prototype.
+
+# Week 11 - 11/2
+11/2 - Finished project 3 - "AI mini me" - I made a GPT Laozi with a full copy of the 道德经 as a vector database. I also made a GPT ASCII art-drawing system.
+
 # Week 10 - 10/26
 10/26 - Here are some product photos of the final version of our TDF project 2!
 
