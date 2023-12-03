@@ -1,3 +1,15 @@
+# Week 16 - 12/7
+
+12-2 - I sort of hate doing integration work.
+Experiements with getting Raspberry Pi working with Waveshare's 4.3" UART e-paper display:
+
+Tested:
+1. Install Raspian Bullseye 64-bit via Raspberry Pi Imager, with Wi-Fi access to the home network and SSH.
+2. Enable UART via `sudo raspi-config`
+3. [Failed] use `pip install raspberry-epaper`
+Reason: this library seems to only use SPI pins and doesn't seem to be compatiable with UART.
+4. [Working] use the `https://github.com/jarret/raspi-uart-waveshare` library and follow the instructions.
+
 # Week 12 - 11/9
 11/9 - This week I started working on the final project. I have a figjam board (working together with Mingzhou Gu) set up for our project:
 ![figjam](11-09/figjam.png)
