@@ -1,6 +1,14 @@
 # Week 16 - 12/7
 
-12-2 - I sort of hate doing integration work.
+12/4 - Got gadget mode working on the Raspberry Pi:
+1. Open up the config.txt, add `dtoverlay=dwc2` as the last line.
+2. In cmdline.txt, After rootwait (the last word on the first line) add a space and then `modules-load=dwc2,g_serial`
+3. USE THE USB port that says "USB" and not "PWR IN", that one doesn't have a USB connection.
+
+
+12-2 - [tested with Raspbian Bullseye, DO NOT USE Bookworm] 
+
+I sort of hate doing integration work when nothing works.
 Experiements with getting Raspberry Pi working with Waveshare's 4.3" UART e-paper display:
 
 Tested:
