@@ -1,5 +1,12 @@
 # Week 16 - 12/7
 
+12/7 - Everything has been printed! Yay! Basic demo of transcription and summary is functional.
+
+12/4 - Installing python libraries for RPi:
+Pyaudio and portaudio cannot be installed via pip (Debian Bullseye), must use `sudo apt install portaudio19-dev python3-pyaudio`
+
+12/4 - Got microphone working on RPi: just follow the Adafruit instructions!
+
 12/4 - Got gadget mode working on the Raspberry Pi:
 1. Open up the config.txt, add `dtoverlay=dwc2` as the last line.
 2. In cmdline.txt, After rootwait (the last word on the first line) add a space and then `modules-load=dwc2,g_serial`
@@ -17,6 +24,19 @@ Tested:
 3. [Failed] use `pip install raspberry-epaper`
 Reason: this library seems to only use SPI pins and doesn't seem to be compatiable with UART.
 4. [Working] use the `https://github.com/jarret/raspi-uart-waveshare` library and follow the instructions.
+
+# Week 15 - 11/30
+
+11/30 - We've finalized the case design for our first generation prototype, meant to really be a testbed for software development. Vidit is looking at making the code parallelized, maybe with Python Multiprocessing, or async/await calls available through OpenAI's API.
+
+# Week 14 - 11/23
+
+11/23 - Ming, Vidit and I have continued to work on the UI and industrial design for the project on a figma board. We're finalizing the design to print.
+![figma](figma.png)
+
+# Week 13 - 11/16
+
+11/16 - Continued to play around with my code for the note taker project.
 
 # Week 12 - 11/9
 11/9 - This week I started working on the final project. I have a figjam board (working together with Mingzhou Gu) set up for our project:
