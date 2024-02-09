@@ -1,5 +1,5 @@
 # Hello! 👋🏼
-This is the repository for Lingxiu's work in the Fall 2023 DES INV 202 _Technology Design Innovations_ class at UC Berkeley.
+This is the repository for Lingxiu's work in the Fall 2023 DES INV 202 _Technology Design Foundations_ class at UC Berkeley.
 
 ---
 ## [Weekly Report](weekly-reports/weekly-report.md)
